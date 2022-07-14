@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-size: 16px;   
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+header {
+    background: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url(./images/background.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+    margin-bottom: 80px;
+}
+#header-nav {
+    background: none;
+    border: 0;
+}
+#logo-img {
+    width: 100px;
+    margin: 40px 0 35px 10px;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #fff;
+    border: none;
+}
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: 10px;
+}
+#nav-list {
+    margin-top: 30px;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+#nav-list a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #f44336;
+}
+.course {
+    color: #ffffff;
+    font-weight: bold;
+    position: absolute;
+    top: 20vh;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.container h1 {
+    font-weight: 13px;
+    font-weight: bold;
+    margin-top: 40px;
+    padding: 20px 20px 0 20px;
+    text-transform: capitalize;
+}
+#sub-title {
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+#courses #intermediate, #courses #degree, #courses #post-graduation {
+    background-color: #fff3f3;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+#courses #intermediate:hover, #courses #degree:hover, #courses #post-graduation:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+#intermediate, #degree, #post-graduation {
+    text-align: center;
+    color: #000;
+    font-weight: bold;
+}
+#courses p {
+    color: #777;
+    padding: 15px;
+    font-size: 13px;
+    font-weight: lighter;
+}
+#facilities img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 0;
+}
+#facilities img:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+#facilities h2 {
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+#facilities p {
+    color: #777;
+    font-size: 13px;
+    font-weight: lighter;
+}
+.footer {
+    margin-top: 50px;
+    text-align: center;
+}
+.footer h2 {
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-bottom: 25px;
+    padding: 10px;
+}
+.footer p, .copyright-info {
+    font-size: 13px;
+    color: #777;
+}
+.social-media .fa {
+    padding: 10px;
+    margin: 3px;
+    text-align: center;
+    color: #f44336;
+}
+.fa:hover {
+    text-decoration: none;
+    transform: scale(1.1);
+}
+
+@media (max-width: 767px) {
+    #logo-img {
+        width: 100px;
+        margin: 10px;
+    }
+    #nav-list {
+        position: relative;
+        margin-top: 0;
+        text-align: center;
+        background-color: #ffffff;
+        z-index: 9999;
+    }
+    #nav-list a:hover {
+        background-color: #f44336;
+        text-decoration: none;  
+    }
+    #nav-list li hr {
+        padding: 0;
+        margin: 0;
+    }
+    .course {
+        z-index: 1;
+    }
+    #facilities img:hover {
+        transform: scale(0.9);
+        cursor: pointer;
+    }
+}
