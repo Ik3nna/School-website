@@ -1,1 +1,1 @@
-# School-website
+I cloned a full responsive multi page school website designed by easy tutorials. During the development of this project, I was exposed and introduced to the transition property in css, the transform:translate property also in css and some hover properties in css. This project made me understand the position property in css fully and the importance of jquery in collapsing the nav-button. At this point, i would like to appreciate easy tutorials for providing the link to the files used in this project. 
