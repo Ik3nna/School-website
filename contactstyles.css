@@ -138,7 +138,7 @@ button:hover {
         margin-top: 0;
         text-align: center;
         background-color: #ffffff;
-        z-index: 9999;
+        z-index: 9999 !important;
     }
     #nav-list a:hover {
         background-color: #f44336;
